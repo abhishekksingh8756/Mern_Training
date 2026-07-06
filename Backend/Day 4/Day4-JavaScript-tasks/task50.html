@@ -1,0 +1,28 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            let nums = [10, 20, 30, 40, 50]
+            nums.push(60)
+            console.log(nums);
+            nums.pop()
+            console.log(nums);
+           let a =nums.slice(0,3)
+           console.log(a);
+           
+           nums.splice(1,3)
+           console.log(nums);
+           let c =nums.join("-")
+           console.log(c);
+           let d =nums.reverse()
+           console.log(d);
+           nums.forEach((item,index,arr) => {
+            console.log(item)
+           });
+           let f =nums.reduce((acc,item,index,arr) => {
+            return acc+item
+           },0);
+           console.log(f);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<h1 id="h1">Heading One</h1>
+<h1 id="h2">Heading Two</h1>
+
+<button onclick="swapHeading()">Swap</button>
+
+<script>
+function swapHeading(){
+let temp=document.getElementById("h1").innerHTML;
+document.getElementById("h1").innerHTML=
+document.getElementById("h2").innerHTML;
+document.getElementById("h2").innerHTML=temp;
+}
+</script>
+
+</body>
+</html>

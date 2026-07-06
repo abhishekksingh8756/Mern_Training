@@ -1,0 +1,252 @@
+<html>
+
+<head>
+    <style>
+        #outer {
+            min-height: 1000px;
+            width: 1200px;
+            border: 1px solid black;
+            margin: 0px auto;
+
+        }
+
+        #top {
+            height: 40px;
+            width: 1200px;
+            background: #223d4f;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+            color: white
+        }
+
+        .tpart {
+            height: 40px;
+            width: 300px;
+            float: left;
+            line-height: 40px;
+            font-weight: bold;
+            ;
+        }
+
+        #header {
+            height: 70px;
+            width: 1200;
+            background: greenyellow;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+        }
+
+        #logo {
+            height: 70px;
+            width: 200px;
+            float: left;
+            line-height: 70px;
+            font-size: 30px;
+
+
+        }
+
+        #menu {
+            height: 70px;
+            width: 700px;
+            float: left;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+
+        }
+
+        #menu ul {
+            list-style: none;
+        }
+
+        #menu ul li {
+            height: 45px;
+            width: 80px;
+
+            float: left;
+            line-height: 45px;
+            text-align: center;
+            transform: translateY(-3px);
+            font-weight: bold;
+            transition: all .5s;
+            border-radius: 3px;
+        }
+
+        #menu ul li:hover {
+            background: red;
+            transition: all .5s;
+            color: white;
+
+        }
+
+        #slider {
+            height: 500px;
+            width: 1200px;
+            background: linear-gradient(rgba(255, 255, 255, .2)), url("data:image/jpeg;base64,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");
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+        }
+
+        #h {
+            font-size: 50px;
+
+        }
+        #intro {
+            min-height: 00px;
+            width: 1200px;
+            background:white;
+            padding: 25px 150px;
+            box-sizing: border-box;
+            text-align: justify;
+
+
+        }
+
+        #AboutCompany {
+            min-height: 50px;
+            width: 1200px;
+            background: red;
+            padding: 25px 150px;
+            box-sizing: border-box;
+
+        }
+
+        #ufooter {
+            height: 350px;
+            width: 1200px;
+            background: #223d4f;
+            padding: 25px 150px;
+            box-sizing: border-box;
+
+        }
+
+        .ftr {
+            height: 250px;
+            width: 225px;
+            float: left;
+            color: whitesmoke;
+        }
+
+        #bfooter {
+            min-height: 45px;
+            width: 1200px;
+            background: #223d4f;
+            border-top: 1px solid white;
+            color: white;
+            text-align: center;
+            line-height: 45px;
+
+
+        }
+
+        .txt {
+            height: 45px;
+            width: 100%;
+            border: none;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            box-sizing: border-box;
+
+        }
+
+        
+        #lbox{
+            height: 45px;
+            width: 100%;
+            border-radius: 3px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="top">
+            <div class="tpart" ">[[]][[]][[]][[]]LOGO</div>
+                <div class=" tpart" style="text-align: right;">casupport@domainname.com</div>
+        </div>
+        <div id="header">
+            <div id="logo"><b style="color: white;">&copy</b><b style="color:white;">Corporate</b></div>
+            <div id="menu">
+                <ul>
+                    <a>
+                        <li> HOME</li>
+                    </a>
+                    <a>
+                        <li>ABOUT</li>
+                    </a>
+                    <a>
+                        <li>SERVICE</li>
+                    </a>
+
+
+                    <a>
+                        <li>PROJECTS</li>
+                    </a>
+                    <a>
+                        <li>PRICING</li>
+                    </a>
+                    <a>
+                        <li>CONTACT</li>
+                    </a>
+                    
+
+                </ul>
+            </div>
+        </div>
+        <div id="slider">
+            <div id="h"><b style="color: rgb(39, 231, 80) ">Welcome to<b style="color: rgb(39, 231, 80);backdrop-filter:blur(2px);"> Corporate</b> Pvt. Ltd.</b></div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit suscipit, assumenda vitae dignissimos
+                mollitia deserunt iure quas, atque doloribus enim error nam magnam magni id inventore saepe molestias
+                sed temporibus.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit suscipit, assumenda vitae
+                dignissimos mollitia deserunt iure quas, atque doloribus enim error nam magnam magni id inventore saepe
+                molestias sed temporibus.
+            </p>
+            <a href="#" style="text-decoration: none; color: white;background:red; padding: 10px 20px;">Register Now</a>
+        </div>
+        
+        <div id="intro">
+            <p style="font-size: 30px;text-align: center;">About<b style="color: red;">Company</b>
+          </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore dolore doloribus expedita
+                excepturi aperiam ad labore maiores earum nemo eaque saepe quidem possimus cupiditate, quisquammaiores earum nemo eaque saepe quidem possimus cupiditate,
+            </p>
+        </div>
+        
+
+        </div>
+        </div>
+        <div id="ufooter">
+            <div class="ftr">Vision </b> <br><br><br> corporate vision statement defines your organization's long-term aspirations and destination. It is the "where" and "why" you exist, designed to inspire employees and guide strategic planning. A strong vision looks forward 5 to 10 years and avoids generic corporate jargon in favor of concrete imagery </b>    
+
+                
+            </div>
+            <div class="ftr"> <b>ACCOUNT</b>
+<br><br><br>About Us <br><br>Connect With Us <br><br>Terms & Conditon  <br><br>Privacy Policy
+
+                      
+            </div>
+            <div class="ftr"><b>Misssion</b><br><br>A strong corporate mission statement defines your company's purpose, who you serve, and the unique value you provide. It should be a concise, action-oriented beacon that guides daily operations and inspires both your team and your customers.
+           
+            </div>
+            <div id="lbox"></div>
+     
+                
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

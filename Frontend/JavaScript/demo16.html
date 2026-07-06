@@ -1,0 +1,33 @@
+<html>
+          <head>
+                    <style>
+                    img
+                    {
+                      padding: 25px;
+                      border: 10px solid goldenrod;
+                      border-radius: 10px;
+                      margin: 25px;
+
+                    }
+                    </style>
+          </head>
+          <body>
+                    <img src="images/c5.jpg" height="200px" width="200px" id="im1">
+                    <img src="images/c6.jpg" height="200px" width="200px"  id="im2">
+                    <button>Click Me</button>
+                    <script>
+                    function demo()
+                    {
+                              var i1=document.getElementById("im1")
+                              var i2=document.getElementById("im2")
+                              var path1=i1.src
+                              var path2=i2.src
+                              i1.src=path2
+                              i2.src=path1
+                    }
+                    setInterval(demo,3000)
+
+                    </script>
+          </body>
+
+</html>

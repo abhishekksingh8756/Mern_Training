@@ -1,0 +1,43 @@
+<html>
+          <head>
+                    <style>
+                              input
+                              {
+                                        height: 80px;
+                                        width: 80px;
+                                        border-radius: 50%;
+                                        border: 5px groove plum;
+                                        background: plum;
+                                        font-size: 22px;
+                                        font-weight: bold;
+                              }
+                    </style>
+          </head>
+          <body>
+
+                  <center>
+                    <img src="imagesl/off.jpg" alt="offlight" id="img">
+                    <br>
+                    <input type="button"  id="btn" onclick="demo()" value="ON" height="200px">
+                  </center> 
+                  <script>
+                    function demo()
+                    {
+                              var im=document.getElementById("img")
+                              var b=document.getElementById("btn")
+                              alert(b.value=="on")
+                              {
+                                        b.value="off"
+                                        im.src="imagesl/on.jpg"
+                                        
+                              }
+                              else
+                              {
+                                        b.value="ON"
+                                        im.src="imagesl/off.jpg"
+                              }
+                    }
+                    setInterval(demo,3000)
+                  </script> 
+          </body>
+</html>

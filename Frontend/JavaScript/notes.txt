@@ -1,0 +1,241 @@
+variable
+=====
+variable is a value  container to store data value.
+
+var
+let
+const
+===============
+var x=10
+var  y=10
+==================================================
+promt("name",""RAM)
+
+
+=>OK => inputted value(string)
+cancel =>null
+======================
+type Casting|type Conversion
+--------------
+the process of converting one type value to another data type is known as type casting or type conversion
+
+paseInt()
+praseFloat()
+Number()
+String()
+Boolean()
+--------------
+RAMKUMARVERMA  =>camelcase
+ramkumarverma
+getElementById
+
+======================================
+confirm Box
+=-----------
+confirm box is used to take confirmation with user.
+=>it has two button
+
+OK=> true
+cancel=.false
+It is defined in Window Object.
+windo.confirm(""Mesage)
+confirm("message")
+
+Exa:
+----------
+var x=confirm ("please click on ok cancel button")
+================================================================
+getElementById() // vvvimportant
+-----------
+getElementByIdfunction isused to select HTML tags on the basisHTMLId.
+=> It is defined in document object.
+return type of getElementByIdfunction is currentobject(current Tag).
+
+syntax
+----------------
+document.getElementById("HTMLID")
+Exa:
+==
+<div id ="dv>Techpile>/div>
+
+var x=document.getElementById("dv")
+===========================================
+Hiw to Apply css by using Js
+
+object.style.cssProperty="value"
+var x=document.getElementById("dv")
+x.style.background ="red"
+x.style.color="yellow"
+x.style.bordreRadius="50px"
+x.style.PaddingTop="10px"
+=======================================
+function
+===========
+function is block of re-usable code which is used to perfirm particular task.
+1.pre-defined functiona
+alert,confirm,promt,getElementByclassname,write getElementByclassname
+2.
+
+UDF(user  defined function)
+the fundtin which are defined by user base on business login are known as UDF
+
+
+(a).
+function funtionName()//defining function
+{
+          statement
+          statement
+          statement
+          statement
+}
+=============================
+onclick="functionName()"
+ondbclick="functionName()"
+=====================================
+alert("ok")
+
+  =============
+  if(10==="10")//true=|
+  {
+          alert("ok")
+  }
+  ==================================
+  Form Control()
+value======
+value properyt is used to set/get value of the form Control
+(input,texture,button,select)
+
+
+syntax=>get====
+object.value
+Exa:
+==============
+<input type="text" id="t"/RAMM 
+var x=document.getElementById("t").value
+==============================================
+var obj=document.getElementById("t")
+var x=obj.value===================
+SYNTAX=>set
+===================
+object.value="value"
+Exa:
+<input type="text" id="t"/>
+document.getElementById("t").value="RAMAN"
+or
+var OKbj=document.getElementById("t")
+obj.value="RAMAN"
+===========================
+<input  type ="text"/>
+<div> Techpile Technologies</div>
+
+=======================================
+onmouseover="stop()"
+onmouseleave="start()"
+========================================
+setInterval()
+---------
+setInterval
+function is used to execute a function for every given time interval.
+=> it ios defined in window object.
+
+syntax------
+window.setInterval("functionName()",3000)
+or
+setInterval("functionName()"or,3000)
+or
+window.setInterval(functionName,5000)
+====================================================
+
+setTimeout()
+============================
+<img src= "abc.jpg" ,title="xyz" alt=path error"/>
+src
+title
+alt
+
+How to get/set value of an attribute
+-------------------
+
+get====
+var x=object .attributesName
+<<img src= "abc.jpg" ,title="xyz" alt=path error"/>
+var obl= document .getElementById("im1")
+var x=obj.src//abc.jpg
+var y =obj.title//xyz============
+=================================
+day 06
+=========
+console.log()
+=============
+it is used to display output on browser console.
+
+=======================
+querySelector()
+============================
+
+querySelector function is used to slect HTML first matches tag on the basis of CSS querySelector
+=> it is defined in document.
+
+SYNTAX==
+document .querySelector("CSS Selector")
+document .querySelector("#idname")
+document .querySelector(".className")
+document .querySelector("tagname")
+<h1> text1</h1>
+<h1 class="a"> text1</h1>
+<h1 class="b"> text1</h1>
+<h1 id="x"> text1</h1>
+<h1 id="y"> text1</h1>
+document .querySelector("h1")//first H1
+==========================================
+window .setInterval(demo(),1000)
+================================
+function()
+{
+  alert("ok")
+}
+onclick="demo()"
+onmouseover="demo()"
+=========================================
+function()
+{
+  alert("ok")//anonymous function
+}
+
+-----------------
+Named function
+
+function demo()
+{
+  alert("ok")
+}
+ES-6
+=====
+Arrow function
+var demo()=>
+
+{
+  alert("ok")    //named row
+}
+anonymous Arrow Function==========
+=======================
+setInterval(()=>{},1000)
+
+
+============================================================================
+Array
+-----------
+var arrayName=[ item1.item3 -----itemN]
+var arr=[10,20,30.0,"RAM"]
+In javascript array is collection of different data type value.
+=>index of array is start from 0 and last index n-1 where n length of array
+var arr=["RAMAN","CSE",5.6,true]
+=======================
+acess an array
+----------
+arrayName[index]
+
+
+
+
+

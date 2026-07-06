@@ -1,0 +1,102 @@
+<html>
+          <head>
+                    <style>
+                              #cal
+                              {
+                                        min-height: 300px;
+                                        width: 500px;
+                                        background: whitesmoke;
+                                        margin: 100px auto;
+                                        box-shadow: 0px 0px 50px black;
+                                        border-radius: 20px;
+                                        padding:25px;
+                                        box-sizing: border-box;
+                              }
+                              input
+                              {
+                                        height: 50px;
+                                        width: 100%;
+                                        margin: 10px 0px;
+                                        padding-left: 20px;
+                                        box-sizing: border-box;
+                                        border: none;
+                                        box-shadow: 0px 0px 10px black inset;
+                                        border-radius: 5px;
+                              }
+                              button
+                              {
+                                        height: 50px;
+                                        width: 50px;
+                                        border: none;
+                                        border-radius: 5px;
+                                        background: palevioletred;
+                                        font-size: 30px;
+                                        color: whitesmoke;
+                              }
+                    </style>
+          </head>
+          <body>
+                    <div id="cal">
+                              <div style="font-weight:bold;font-size:24px;text-align: center;"></div>
+                             <p> simple calculatior by Abhishek </p>
+                             <input type="number" id="t1" placeholder="Enter First No:/"><br>
+                             <input type="number" id="t2" placeholder="Enter Second No:/"><br>
+                             <p id="msg"></p>
+                             <button onclick="addfun()">-</button>
+                             <button onclick="subfun()">+</button>
+                             <button onclick="mulfun()">x</button>
+                             <button onclick="divfun()">/</button>
+                    </div>
+                    <script>
+                              function addfun()
+                              {
+                                        var t1=document.querySelector("#t1")
+                                        var t2=document.querySelector("#t2")
+                                        var msg=document.querySelector("#msg")
+                                        var num1=parseFloat(t1.value)
+                                        var num2=parseFloat(t2.value)
+                                        var res=num1+num2
+                                        alert(res.toFixed(4))
+                                        // msg.innerHTML="<b>Result is :  </b>"+res
+                                        msg.innerHTML=`<b>Result is : </b>${res}`
+                              }
+                              function subfun()
+                                  {
+                                        var t1=document.querySelector("#t1")
+                                        var t2=document.querySelector("#t2")
+                                        var msg=document.querySelector("#msg")
+                                        var num1=parseFloat(t1.value)
+                                        var num2=parseFloat(t2.value)
+                                        var res=num1-num2
+                                        alert(res.toFixed(4))
+                                        // msg.innerHTML="<b>Result is :  </b>"+res
+                                        msg.innerHTML=`<b>Result is : </b>${res}`
+                              }
+                              function mulfun()
+                                  {
+                                        var t1=document.querySelector("#t1")
+                                        var t2=document.querySelector("#t2")
+                                        var msg=document.querySelector("#msg")
+                                        var num1=parseFloat(t1.value)
+                                        var num2=parseFloat(t2.value)
+                                        var res=num1*num2
+                                        alert(res.toFixed(4))
+                                        // msg.innerHTML="<b>Result is :  </b>"+res
+                                        msg.innerHTML=`<b>Result is : </b>${res}`
+                              }
+                              function divfun()
+                                  {
+                                        var t1=document.querySelector("#t1")
+                                        var t2=document.querySelector("#t2")
+                                        var msg=document.querySelector("#msg")
+                                        var num1=parseFloat(t1.value)
+                                        var num2=parseFloat(t2.value)
+                                        var res=num1/num2
+                                        alert(res.toFixed(4))
+                                        // msg.innerHTML="<b>Result is :  </b>"+res
+                                        msg.innerHTML=`<b>Result is : </b>${res}`
+                              }
+                              
+                    </script>
+          </body>
+</html>

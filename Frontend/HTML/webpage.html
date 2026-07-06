@@ -1,0 +1,477 @@
+<html>
+
+<head>
+    <style>
+        #outer {
+            min-height: 1000px;
+            width: 1200px;
+            border: 1px solid black;
+            margin: 0px auto;
+
+        }
+
+        #top {
+            height: 40px;
+            width: 1200px;
+            background: #223d4f;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+            color: white
+        }
+
+        .tpart {
+            height: 40px;
+            width: 300px;
+            float: left;
+            line-height: 40px;
+            font-weight: bold;
+            ;
+        }
+
+        #header {
+            height: 70px;
+            width: 1200;
+            background: whitesmoke;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+        }
+
+        #logo {
+            height: 70px;
+            width: 200px;
+            float: left;
+            line-height: 70px;
+            font-size: 30px;
+
+
+        }
+
+        #menu {
+            height: 70px;
+            width: 700px;
+            float: left;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+
+        }
+
+        #menu ul {
+            list-style: none;
+        }
+
+        #menu ul li {
+            height: 45px;
+            width: 80px;
+
+            float: left;
+            line-height: 45px;
+            text-align: center;
+            transform: translateY(-3px);
+            font-weight: bold;
+            transition: all .5s;
+            border-radius: 3px;
+        }
+
+        #menu ul li:hover {
+            background: red;
+            transition: all .5s;
+            color: white;
+
+        }
+
+        #slider {
+            height: 500px;
+            width: 1200px;
+            background: linear-gradient(rgba(255, 255, 255, .2)), url("imagess/c.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+        }
+
+        #h {
+            font-size: 50px;
+
+        }
+
+        #services {
+            height: 250px;
+            width: 1200px;
+            padding-left: 150px;
+            padding-right: 150px;
+            box-sizing: border-box;
+        }
+
+        .s {
+            height: 230px;
+            width: 280px;
+            float: left;
+            background: whitesmoke;
+            transform: translateY(-50px);
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+            border-radius: 4px;
+            margin: 10px;
+            padding: 25px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+
+        #intro {
+            min-height: 300px;
+            width: 1200px;
+            background: whitesmoke;
+            padding: 25px 150px;
+            box-sizing: border-box;
+            text-align: justify;
+
+
+        }
+
+        #contactus {
+            min-height: 500px;
+            width: 1200px;
+            background: red;
+            padding: 25px 150px;
+            box-sizing: border-box;
+
+        }
+
+        #contact {
+            height: 350px;
+            width: 900px;
+
+
+        }
+
+        #c1 {
+            height: 350px;
+            width: 400px;
+
+            float: left;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        #c2 {
+            height: 350px;
+            width: 500px;
+
+            float: left;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        #gallery {
+            min-height: 600px;
+            width: 1200px;
+            background: whitesmoke;
+            padding: 25px 150px;
+            box-sizing: border-box;
+
+        }
+
+        #gal {
+            height: 550px;
+            width: 900px;
+            
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, .2);
+            transition: 0.3s ease;
+
+
+
+
+
+        }
+
+        .g1{
+            height: 275px;
+            width: 900px;
+
+            box-sizing: border-box;
+            padding-top: 20px;
+            padding-left: 15px;
+            
+            box-shadow: 0px 8px 10px rgba(0, 0, 0, .6);
+            border-radius: 1px;
+        }
+
+        .img{
+            height: 230px;
+            width: 273px;
+            border: #223d4f;
+            transform: scale(1.05);
+
+            border-radius: 4px;
+            border: 3px solid white;
+            box-sizing: border-box;
+            float: left;
+            margin: 8px;
+            transition: all .5s;
+          
+        }
+        .img:hover
+        {
+            transform: scale(1.2);
+            transition: all .5s;
+        }
+
+     
+
+        #login {
+            min-height: 300px;
+            width: 1200px;
+            background: red;
+            padding: 25px 150px;
+            box-sizing: border-box;
+
+        }
+
+        #log {
+            height: 250px;
+            width: 450px;
+            margin: 0 auto;
+            padding-top: 30px;
+            box-sizing: border-box;
+          
+            border-radius: 8px;
+        }
+
+        .txt1 {
+            height: 45px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+          
+           
+        }
+
+        .btn1 {
+            height: 45px;
+            width: 100px;
+            border-radius: 3px;
+           
+            margin-left: 170px;
+
+        }
+
+        
+
+        #ufooter {
+            height: 350px;
+            width: 1200px;
+            background: #223d4f;
+            padding: 25px 150px;
+            box-sizing: border-box;
+
+        }
+
+        .ftr {
+            height: 250px;
+            width: 225px;
+            float: left;
+            color: whitesmoke;
+        }
+
+        #bfooter {
+            min-height: 45px;
+            width: 1200px;
+            background: #223d4f;
+            border-top: 1px solid white;
+            color: white;
+            text-align: center;
+            line-height: 45px;
+
+
+        }
+
+        .txt {
+            height: 45px;
+            width: 100%;
+            border: none;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            box-sizing: border-box;
+
+        }
+
+        textarea {
+            height: 80px !important;
+            resize: none;
+        }
+
+        .btn {
+            height: 45px;
+            width: 100%;
+            border-radius: 3px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="top">
+            <div class="tpart" ">+91-9867585749, 6749498577</div>
+                <div class=" tpart" style="text-align: center;">cars24x7@gmail.com</div>
+            <div class="tpart" style="text-align: right;">AN ISO Certified Company</div>
+        </div>
+        <div id="header">
+            <div id="logo"><b style="color: blue;">Cars</b><b style="color: red;">24x7</b></div>
+            <div id="menu">
+                <ul>
+                    <a>
+                        <li>Home</li>
+                    </a>
+                    <a>
+                        <li>About us</li>
+                    </a>
+                    <a>
+                        <li>Register</li>
+                    </a>
+                    <a>
+                        <li>Contact us</li>
+                    </a>
+                    <a>
+                        <li>Gallery</li>
+                    </a>
+                    <a>
+                        <li>Services</li>
+                    </a>
+                    <a>
+                        <li>Login</li>
+                    </a>
+
+                </ul>
+            </div>
+        </div>
+        <div id="slider">
+            <div id="h"><b style="color: blue;">Welcome to<b style="color: red;backdrop-filter:blur(2px);"> Cars24x7</b> Pvt. Ltd.</b></div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit suscipit, assumenda vitae dignissimos
+                mollitia deserunt iure quas, atque doloribus enim error nam magnam magni id inventore saepe molestias
+                sed temporibus.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit suscipit, assumenda vitae
+                dignissimos mollitia deserunt iure quas, atque doloribus enim error nam magnam magni id inventore saepe
+                molestias sed temporibus.
+            </p>
+            <a href="#" style="text-decoration: none; color: white;background:red; padding: 10px 20px;">Register Now</a>
+        </div>
+        <div id="services">
+
+            <div class="s">
+                <b>Heading 1</b><br />
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores reprehenderit recusandae, error,
+                    eaque minus cumque nihil alias numquam pariatur molestiae in necessitatibus ea quos neque maxime,
+                    laborum repudiandae architecto consequuntur.</p>
+            </div>
+            <div class="s" style="background: white;">
+                <b>Heading 2</b><br />
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores reprehenderit recusandae, error,
+                    eaque minus cumque nihil alias numquam pariatur molestiae in necessitatibus ea quos neque maxime,
+                    laborum repudiandae architecto consequuntur.</p>
+            </div>
+            <div class="s">
+                <b>Heading 3</b><br />
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores reprehenderit recusandae, error,
+                    eaque minus cumque nihil alias numquam pariatur molestiae in necessitatibus ea quos neque maxime,
+                    laborum repudiandae architecto consequuntur.</p>
+            </div>
+        </div>
+        <div id="intro">
+            <p style="font-size: 30px;text-align: center;">About<b style="color: red;"> Us</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore dolore doloribus expedita
+                excepturi aperiam ad labore maiores earum nemo eaque saepe quidem possimus cupiditate, quisquam amet vel
+                id aliquid. Lorem ipsum dolor sit amet.labore maiores earum nemo eaque saepe quidem possimus cupiditate,
+                quisquam amet vel id aliquid. Lorem ipsum dolor sit ametlabore maiores earum nemo eaque saepe quidem
+                possimus cupiditate, quisquam amet vel id aliquid. Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Dolorem tempore dolore doloribus expedita excepturi aperiam ad
+                labore maiores earum nemo eaque saepe quidem possimus cupiditate, quisquam amet vel id aliquid. Lorem
+                ipsum dolor sit amet.labore maiores earum nemo eaque saepe quidem possimus cupiditate, quisquam amet vel
+                id aliquid. Lorem ipsum dolor sit ametlabore maiores earum nemo eaque saepe quidem possimus cupiditate,
+                quisquam amet vel id aliquid. Lorem ipsum dolor sit amet
+            </p>
+        </div>
+        <div id="contactus">
+            <div style="font-size: 30px;text-align: center;">Contact<b style="color: white;"> Us</b></div>
+            <div id="contact">
+                <div id="c1">
+                    <input type="text" class="txt" placeholder="Name.."><br />
+                    <input type="number" class="txt" placeholder="Mobile.."><br />
+                    <input type="email" class="txt" placeholder="Email.."><br />
+
+                    <textarea class="txt" placeholder="Message.."></textarea><br />
+                    <input type="submit" class="btn" value="save">
+                </div>
+                <div id="c2">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7126.167978499823!2d83.88933865000001!3d26.741695749999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3993eb9e01eae47b%3A0x7a8909ed5f568540!2sKushinagar%2C%20Uttar%20Pradesh%20274403!5e0!3m2!1sen!2sin!4v1781932794251!5m2!1sen!2sin" 
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+            </div>
+        </div>
+        <div id="gallery">
+            <div style="font-size: 30px;text-align: center;">Gallery</div>
+            <div id="gal">
+                <div class="g1">
+                    <dib class="img"><img width="100%" height="100%" src="imagess/c1.jpg"image1"></dib>
+                    <dib class="img"><img width="100%" height="100%" src="imagess/c2.jpg"
+                            alt="image2"></dib>
+                    <dib class="img"><img width="100%" height="100%" src="imagess/c3.jpg"
+                            alt="image3"></dib>
+                </div>
+                <div class="g1">
+                    <dib class="img"><img width="100%" height="100%" src="imagess/c4.jpg" alt="image4"></dib>
+                    <dib class="img"><img width="100%" height="100%" src="imagess/c5.jpg"
+                            alt="image5"></dib>
+                    <dib class="img"><img width="100%" height="100%" src="imagess/c6.jpg"
+                            alt="image6"></dib>
+                </div>
+            </div>
+        </div>
+        <div id="login">
+            <div id="log">
+                <input type="text" class="txt1" placeholder="Name.."><br />
+                <input type="password" class="txt1" placeholder="password.."><br />
+                <input type="submit" class="btn1" value="Login">
+            </div>
+        </div>
+        <div id="ufooter">
+            <div class="ftr" style="font-size: 30px;"><b style="color: #00ffff;">Cars</b> <b> 24x7 </b> <br><br><br><b style="font-size: 20px; text-align:justify;">It's a never ending  battle of making yours cars better and also trying to be better yourself </b>    
+
+                
+            </div>
+            <div class="ftr"> <b>ACCOUNT</b>
+<br><br><br>About Us <br><br>Connect With Us <br><br>Terms & Conditon  <br><br>Privacy Policy
+
+                      
+            </div>
+            <div class="ftr"><b>Connect With Us</b><br><br><br><br>Feedback <br><br>Contact Us<br><br>Advertise With Us <br><br>Become Partner Dealer <br><br>FAQs
+           
+            </div>
+            <div class="ftr"><b>Others</b> <br><br><br><br>Health Insurance <br> <br>Team Insurance  <br><br>Life Insurance <br><br>Personal Loans
+     
+                
+            </div>
+        </div>
+        <div id="bfooter">Connect With  Us </div>
+
+    </div>
+</body>
+
+</html>
