@@ -1,0 +1,10 @@
+tags of header
+========================
+<title></title>
+<style></style>
+<script></script>
+<nonscript></nonscript>
+<meta/>
+<command></command>
+<link>
+=======================

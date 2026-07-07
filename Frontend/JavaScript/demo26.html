@@ -1,0 +1,36 @@
+<html>
+          <head>
+                    <style>
+                              img
+                              {
+                                        height:400px;
+                                        border: 10px groove palevioletred;
+                                        padding: 30px;
+                                        border-radius: 10px;
+                                        box-shadow: 0px 0px 30px black inset;
+
+                              }
+                    </style>
+
+</head>
+<body>
+          <center>
+                    <h1> Slider by Abhishek</h1>
+                    <hr>
+                    <img src="images/c5.jpg" id="im">
+          </center>
+          <script>
+                    var arr=["images/c5.jpg","images/c6.jpg","imagesl/off.jpg","imagesl/on.jpg"]
+                    var i=0
+                    // alert(arr[i])
+                    function slider()
+                    {
+                              var im=document.querySelector("#im")
+                              im.src="images/c6.jpg"//arr=[0]
+                              alert("ok")
+
+                    }
+                    window.setInterval(slider,3000)
+          </script>
+</body>
+</html>

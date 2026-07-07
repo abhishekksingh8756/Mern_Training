@@ -1,0 +1,99 @@
+<html>
+<head>
+
+<style>
+body{
+    margin:0;
+    background:#e6e6e6;
+    font-family:Arial, sans-serif;
+}
+
+.main{
+    width:900px;
+    height:550px;
+    margin:30px auto;
+    position:relative;
+    border:3px dotted #555;
+    background:#bcd9e8;
+}
+
+.border-box{
+    width:700px;
+    height:330px;
+    margin:100px auto;
+    border:12px solid #000;
+    background:#ece58a;
+    box-sizing:border-box;
+    padding:45px;
+}
+
+.content{
+    background:#fff;
+    padding:20px;
+    font-size:18px;
+    line-height:30px;
+}
+
+.margin-text{
+    position:absolute;
+    top:30px;
+    left:310px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.border-text{
+    position:absolute;
+    top:-35px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:30px;
+    font-weight:bold;
+}
+
+.padding-text{
+    position:absolute;
+    top:120px;
+    right:150px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.content-text{
+    position:absolute;
+    bottom:45px;
+    right:180px;
+    font-size:28px;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="main">
+
+    <div class="border-text">BORDER</div>
+
+    <div class="margin-text">MARGIN</div>
+
+    <div class="border-box">
+
+        <div class="padding-text">PADDING</div>
+
+        <div class="content">
+            Mauris rhoncus sodales laoreet. Sed pharetra nibh id
+            sapien suscipit pretium. Nulla gravida eu sem eget
+            scelerisque. Etiam eu libero non lacus eleifend porttitor.
+            Morbi sit amet mi ex. Proin tincidunt metus, ornare egestas
+            odio finibus et. Nullam sit amet velit urna.
+        </div>
+
+    </div>
+
+    <div class="content-text">CONTENT</div>
+
+</div>
+
+</body>
+</html>

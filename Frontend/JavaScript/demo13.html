@@ -1,0 +1,34 @@
+<html>
+          <head>
+                    <style>
+                              div{
+                                        height: 150px;
+                                        width: 150px;
+                                        border: 10px solid red;
+                                        float: left;
+                                        margin:20px;
+                              }
+                    </style>
+                    <body>
+                              <div id="dv1">
+                                        <p>this is paragraph</p>
+                                        <b>this is B tag</b><br>
+                                        techpile technologies <br>
+                                        <u>this is U Tag</u>
+
+                              </div>
+                              <div id="dv2"></div>
+                              <button onclick="myfun()">Click Me</button>
+                              <script>
+                                        function myfun()
+                                        {
+                                                  var d1=document.getElementById("dv1")
+                                                  var d2=document.getElementById("dv2")
+                                                  // alert(d.outerHTML)
+                                                  var data=d1.innerText
+                                                   data=d2.innerHTML=" <b>TEchopile</b> <u> Summer Traning 2026 </u>"
+                                        }
+                              </script>
+                    </body>
+          </head>
+</html>

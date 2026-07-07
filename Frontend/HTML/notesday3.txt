@@ -1,0 +1,97 @@
+get/post
+get===========
+1. less secure
+2. it is used for small forms
+3. URL length limit available (2048 charter)
+4. file upload is not possible here
+
+post=============
+1. more secure
+2. 
+====================================
+File upload ke liye 
+method =>post
+2. enctype=>text/plain|multipart/form-data
+
+======================================================
+css stand for cascading sytle sheet    day 4
+CSS waS DEVELOPED by Hakon Wium lie in 1994
+css describes how tags are to display on web browser
+===========================
+types of css
+1. internal css
+2.external CSS !important
+3. inline CSS--------------
+Internal CSS
+<sytle>
+selector
+{
+          property:value;
+          property:value;
+          or 
+          property:value:property:value;
+}
+</sytle>
+selector is used to select html tags to apply CSS
+types of selector1. Tag/Element selector
+2. Id selector
+3.Class selector
+4.Group selector
+5.Universal 
+6.Psedo 
+7.Child
+8.odd/even
+9.nth- child
+---------------------------------------------
+border-width:10px;
+border-style:solid| doubled |dotted|dashed|groove
+border-color;
+border:
+shortend rule;
+
+
+----------------------------------------------- 
+text-tranform:uppercase|
+lowercase|capitalize
+-----------------------------
+verticle writing 
+writing more:horizontal-tb;
+writing-mode:verticle-lr
+---------------------------------
+Inline CSS
+==============
+<tagname style="property:value;property:value"></tagname>
+<tagname/>
+
+------------------------------------
+selector:hover
+{
+          property:value;
+          property:value;
+
+}
+==========================================
+transition:property time in second ,property time in second ;
+transition:background 2s ,color 5s,border 4s;
+transiton:all 4s;
+
+==============================================
+text Shadow le liye and box Shadow--------------
+text-Shadow:h v blur color
+=================================
+block element run line  by line
+inline element ;side by side
+=====================================================border
+font-weight:bold;
+text-align:center;
+line-height;
+font-size:00px;
+text-Shadow:blur;
+===========================================text
+
+
+=================
+margin-padding
+-------------------------------
+height kam na karna pade
+uske liye box-sizing:content-box(default)|border-box(padding,border)

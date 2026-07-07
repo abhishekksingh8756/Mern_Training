@@ -1,0 +1,114 @@
+Bootstrap color
+-----------------
+danger
+warning
+primary
+info
+success
+dark
+light
+white
+------------------
+bg-colorname
+----------------------
+bg-danger
+bg-warning
+bg-dark===========
+------------
+color:red =>   text-colorname
+text-tranform => text-uppercase,text-lowercase|text-capitalize
+========================================
+text-bg-colorname
+text-bg-dark
+text-bg-danger
+text-bg-light
+============================
+font-size=> :fs(1-5)
+fs-1
+fs-2
+fs-3
+fs-4
+fs-5
+======================
+text-align =>
+left =>  BSV4=>text-left BSV5=text-start 
+left =>  BSV4=>text-right BSV5=text-end 
+BSV4 and BSV5 =>text-center
+===========================================
+Martgin(For outer Space of box)
+m-(0-5) =>top bottom left and right
+m-1
+m-2
+m-3
+m-4
+m-5
+=====================
+Margin-top: => mt-(0-5)
+Margin-bottom=> mb-(0-5)
+margin-left=>BSV-4 ml(0-5)    |BSV ms-(0-5)
+margin-right=>BSV-4 mr(0-5)    |BSV me-(0-5)
+margin-left and right =>mx-(0-5)
+margin-top and bootom =>my-(0-5)
+margin:0px auto  =>mx-auto
+=================================
+padding => (0-5)=top bottom left and right
+padding-top =>pt-(0-5)
+padding-bottom =>pb-(0-5)
+paddin-left =>BSV4 pl-(0-5)|BSV5 ps-(9-5)
+paddin-right =>BSV4 pr-(0-5)|BSV5 pe-(9-5)
+padding-right and left =>px-(0-5)
+padding-top and padding-bottom =>py(0-5)
+-====================================
+BSV4 => img-responsive
+BSV5 =>img-fluid | img-thumbnail
+=============================
+btn btn-colorname
+btn btn-danger
+btn btn-warning
+btn btn-outline-colorname
+btn btn-outline-danger
+btn btn-outline-warning
+btn btn-outline-sucess
+===============================================
+form-control
+================================================
+Bootstrap alert
+
+
+
+alert alert-success
+alert alert-danger
+alert alert-warning
+alert alert-info
+alert alert-primary
+==============================
+width   
+w-100 =>100% width
+w-75 =>75% width
+w-25 =>25%  width
+w-0 =>0%  width
+================================
+Break Point
+--------------
+col-sm-12
+col-md-12
+col-lg-12
+col-xl-12
+col-xxl-12
+=====================================
+border radius
+rounded(0-5)
+=========================================
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+
+====================================
+icon ke liye
+
+---
+<div class="input-group">
+          on
+          <b class="input-group-text"></b>
+          <input
+</div>

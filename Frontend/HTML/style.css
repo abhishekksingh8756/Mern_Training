@@ -1,0 +1,10 @@
+#a1,#a3,#a5{
+                              background-color: aliceblue;
+                              color: yellow;
+                              border: 2px dotted black;
+                    }
+                    #a2,#a4,#a6{
+                              background-color: red;
+                              color: green;
+                    }
+        

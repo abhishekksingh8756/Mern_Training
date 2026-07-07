@@ -1,0 +1,58 @@
+<tagname> attribute="value"
+attribute="value"></tagname>
+<tagname/>
+=============== 
+<font></font>
+color
+size
+face
+============
+charter entities
+
+
+&entity;
+&copy;
+&reg;
+&uarr;
+&darr;
+&larr;
+&rarr;
+&harr;
+&varr;
+&nbsp;====
+================================
+<marquee></marquee>
+attribute of marquee tagname
+direction=> left(default)|right|up|down
+behaviour =>scroll(default)|slide|aiternate
+scrollMOUNT=>NUMBER
+bgcolor=>for  background color
+onmouseover =>stop()
+onmouseleave =>start()
+hspace =>for left and right outer space
+vspace =>for top and bottom outer space
+loop=>loop========================
+behaviour===
+scroll,default,slide
+==================================
+<img>
+alt, height, 
+==================
+<video></video>
+src,controls,autoplay,muted,poster
+====================
+<audio></audio>
+src, controls,height,
+===========================================WEB FORM FORM controls
+tags related to web  controls
+<input/>,selsect, option, optgroup,textarea ,button,fieldset,legend,FORM========
+=========================================================
+attributerealted to  web FORM
+  name, placeholder, type,, required,checked,selected,autofocus,vale ,min, max, rows,controls,multiple attribute,accept
+  accept=. file extensin|video/*|audio/*|image/*
+  method=> get/poster
+  enctype=> text /plain(default)multipart/form-data
+  ======================================================
+    tran
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.circle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    display:inline-block;
+    margin:10px;
+}
+
+#c1{
+    border:5px solid red;
+    background-color:yellow;
+}
+
+#c2{
+    border:5px solid blue;
+    background-color:green;
+}
+</style>
+</head>
+<body>
+
+<div id="c1" class="circle"></div>
+<div id="c2" class="circle"></div>
+<br><br>
+
+<button onclick="swapBorder()">Swap Border Color</button>
+
+<script>
+function swapBorder() {
+    let c1 = document.getElementById("c1");
+    let c2 = document.getElementById("c2");
+
+    let color1 = getComputedStyle(c1).borderColor;
+    let color2 = getComputedStyle(c2).borderColor;
+
+    c1.style.borderColor = color2;
+    c2.style.borderColor = color1;
+}
+</script>
+
+</body>
+</html>
