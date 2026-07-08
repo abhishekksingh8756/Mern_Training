@@ -1,0 +1,185 @@
+================================================================================
+                    JAVASCRIPT PRACTICE TASKS — CODING QUESTIONS
+                         DAY 6: MODULES (IMPORTANT)
+================================================================================
+
+INSTRUCTIONS
+------------
+
+Assignment for All Students (Mandatory)
+---------------------------------------
+1. Prepare clear and neat handwritten notes.
+2. Complete all programming questions before the next class.
+3. Write every program yourself. Do not copy from others.
+4. Practice every program at least twice.
+5. Be ready for viva and coding questions in the next class.
+6. Bring your handwritten notes and programs for checking.
+
+Note: Incomplete work or failure to answer questions will be considered
+non-compliance with class requirements.
+
+
+================================================================================
+TOPIC 1: COMMONJS MODULES (20 Tasks)
+================================================================================
+
+Task 01
+Create a file named "math.js" and export one variable using "module.exports".
+
+Task 02
+Import the variable from "math.js" using "require()".
+
+Task 03
+Create a function "add(a, b)" and export it.
+
+Task 04
+Import the "add()" function and print the result.
+
+Task 05
+Create a function "subtract(a, b)" and export it.
+
+Task 06
+Create a function "multiply(a, b)" and export it.
+
+Task 07
+Create a function "divide(a, b)" and export it.
+
+Task 08
+Export an object containing "name", "age", and "city".
+
+Task 09
+Import the object and print all properties.
+
+Task 10
+Create a module that exports an array of fruits.
+
+Task 11
+Import the fruits array and print all items.
+
+Task 12
+Create two functions and export both using an object.
+
+Task 13
+Import the functions and call them.
+
+Task 14
+Create a module named "message.js" that exports a welcome message.
+
+Task 15
+Import the message and display it.
+
+Task 16
+Create a calculator module containing four functions.
+
+Task 17
+Import the calculator module and perform all operations.
+
+Task 18
+Create a module that exports student details.
+
+Task 19
+Create a module that exports a mobile phone object.
+
+Task 20
+Create two separate files and exchange data using "require()" and "module.exports".
+
+
+================================================================================
+TOPIC 2: ES MODULES (30 Tasks)
+================================================================================
+
+Task 21
+Create a file named "child.js" and export one variable using "export".
+
+Task 22
+Import the variable in "index.js".
+
+Task 23
+Create a function "greet()" and export it.
+
+Task 24
+Import and call "greet()".
+
+Task 25
+Create and export a function "add(a, b)".
+
+Task 26
+Import "add()" and print the result.
+
+Task 27
+Export two functions from one file.
+
+Task 28
+Import both functions using named imports.
+
+Task 29
+Create a default export function.
+
+Task 30
+Import the default export function.
+
+Task 31
+Export an object containing student information.
+
+Task 32
+Import the object and display all properties.
+
+Task 33
+Export an array of numbers.
+
+Task 34
+Import the array and print all values.
+
+Task 35
+Create a module containing three variables and export them.
+
+Task 36
+Import all variables using "import * as".
+
+Task 37
+Create a module for calculator functions.
+
+Task 38
+Import and use all calculator functions.
+
+Task 39
+Create a module for employee details.
+
+Task 40
+Import and print employee information.
+
+Task 41
+Export a class named "Person".
+
+Task 42
+Import the class and create an object.
+
+Task 43
+Create a module containing a function and a variable.
+
+Task 44
+Import both items together.
+
+Task 45
+Create a module named "message.js" and export a default message.
+
+Task 46
+Import the message and display it.
+
+Task 47
+Create three different modules and import them into one file.
+
+Task 48
+Create a module that exports an array of student objects.
+
+Task 49
+Import the array and print all student names.
+
+Task 50
+Create one project using "export", "export default", "import" .
+
+
+================================================================================
+                                TOTAL TASKS: 50
+================================================================================
+ 
